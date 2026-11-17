@@ -1,0 +1,8 @@
+export default function ChartHeader({ title, subtitle }) {
+  return (
+    <header className="chart-header">
+      <h1>{title}</h1>
+      <h2>{subtitle}</h2>
+    </header>
+  );
+}

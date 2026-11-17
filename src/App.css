@@ -1,0 +1,114 @@
+.chart-container {
+  --accent: #da0901;
+  --ink: #172b3a;
+  --muted: #777777;
+
+  width: 100%;
+  margin: 70px 0;
+  padding: 0 28px;
+}
+
+/* 1. Decorative line */
+
+.decorative-line {
+  position: relative;
+  width: 95%;
+  height: 5px;
+  background: var(--accent);
+  margin-bottom: 28px;
+}
+
+.decorative-line__bar {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 30px;
+  height: 12px;
+  background: var(--accent);
+}
+
+/* 2. Header */
+
+.chart-header {
+  margin-bottom: 20px;
+}
+
+.chart-header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  color: #172b3a;
+  margin: 0;
+}
+
+.chart-header h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 400;
+  color: #172b3a;
+  margin: 0;
+}
+
+/* 5. Caption */
+
+.chart-caption {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1;
+  color: var(--muted);
+  margin-top: 10px;
+}
+
+
+/* 4. Bar plot */
+
+.bar-plot {
+  width: 100%;
+  
+}
+
+.bar-plot svg {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  overflow: visible;
+}
+
+.bar {
+  fill: #076fa2;
+}
+
+.grid-line {
+  stroke: #dedede;
+  stroke-width: 1;
+}
+
+.category-label {
+  font-family: Arial, Helvetica, sans-serif;
+  fill: #076fa2;
+}
+
+.category-label--inside {
+  fill: #ffffff;
+}
+
+.value-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  fill: #172b3a;
+}
+
+.axis-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  fill: #777777;
+}
+
+.zero-line {
+  stroke: #000;
+  stroke-width: 1;
+}
